@@ -11,6 +11,7 @@
   - ![example_db](https://user-images.githubusercontent.com/87958906/139253432-3afa4ce7-6f9e-471a-805e-e62b360f77ea.png)
 
 - **서버 호스팅은 AWS EC2 무료 버전 이용**
+  - ![example_aws](https://user-images.githubusercontent.com/87958906/139256174-2016343d-062c-461c-9921-98999d857072.PNG)
 
 ### 과제 진행중 어려웠던 점
 - 웹 프로젝트 경험이 없어 처음 시작이 상당히 어려워 공부하는 시간이 많이 들었습니다.
