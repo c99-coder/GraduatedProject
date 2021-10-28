@@ -3,13 +3,18 @@
 - [졸업과제URL http://3.34.94.46:5000/](http://3.34.94.46:5000/)
 
 ### FrontEnd + BackEnd
-- Flask 로 개발 (아래 예시)
+- **Flask 로 개발 (아래 예시)**
   - ![example_web](https://user-images.githubusercontent.com/87958906/139253183-33cd6c00-493d-4f50-ab4a-cadf70f3b4c6.png)
  
-- DB는 sqlite 사용하여 사용자 정보를 받아옴(아래 예시)
+- **DB는 sqlite 사용하여 사용자 정보를 받아옴(아래 예시)**
   - ![example_db](https://user-images.githubusercontent.com/87958906/139253432-3afa4ce7-6f9e-471a-805e-e62b360f77ea.png)
 
-- 서버 호스팅은 AWS EC2 무료 버전 이용
+- **서버 호스팅은 AWS EC2 무료 버전 이용**
+
+### 과제 진행중 어려웠던 점
+- 웹 프로젝트 경험이 없어 처음 시작이 상당히 어려워 공부하는 시간이 많이 들었습니다.
+- AWS를 처음으로 사용하여 방화벽설정, 백그라운드동작, SSH인증, 패키지업데이트 등 많은 시행착오가 있었습니다.
+- ~~디자인은 시도하였지만.. 망했습니다.~~
 
 ### 추가 개발 필요
 - OTP 구현하여 이메일 인증된 사용자만 회원가입 (아직 API를 사용할지 직접 구현할지 구체적 구상)
