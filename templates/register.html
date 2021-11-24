@@ -1,29 +1,23 @@
-<!DOCTYPE html>
-<html lang="UTF-8">
+{% extends "base.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <form action="{{ url_for('adduser') }}" method="post">
-        <h2>회원가입</h2>
-        <p>ID<br />
-            <input type="text" name="id" />
-        </p>
-        <p>Password<br />
-            <input type="password" name="password" />
-        </p>
-        <p>Name<br />
-            <input type="text" name="name" />
-        </p>
-        <p>Telephone<br />
-            <input type="tel" name="telephone" />
-        </p>
-        <p><input type="submit"></p>
-    </form>
-</body>
-
-</html>
+{% block page_content %}
+<form action="{{ url_for('main.register') }}" method="post">
+    <div class="form-group">
+        <label for="user_id">아이디</label>
+        <input class="form-control" type="text" name="user_id" id="user_id" placeholder="아이디 입력" />
+    </div>
+    <div class="form-group">
+        <label for="password">비밀번호</label>
+        <input class="form-control" name="password" type="password" placeholder="비밀번호 입력" />
+    </div>
+    <div class="form-group">
+        <label for="nickname">닉네임</label>
+        <input class="form-control" name="nickname" type="nickname" placeholder="닉네임 입력" />
+    </div>
+    <div class="form-group">
+        <label for="telephone">전화번호</label>
+        <input class="form-control" name="telephone" type="telephone" placeholder="전화번호 입력" />
+    </div>
+    <input class="btn btn-primary" type="submit" value="회원가입!" />
+</form>
+{% endblock %}
