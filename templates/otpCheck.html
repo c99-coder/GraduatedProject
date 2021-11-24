@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+<form action="{{ url_for('main.otpCheck', id=id) }}" method="post">
+    <div class="form-group">
+        <label for="otpnum">OTP</label>
+        <input class="form-control" type="text" name="otpnum" id="otpnum" placeholder="OTP 입력" />
+    </div>
+    <input class="btn btn-primary" type="submit" value="회원가입!" />
+</form>
+{% endblock %}
