@@ -8,7 +8,6 @@ bp = Blueprint('main', __name__, url_prefix='/')
 @bp.route('/')
 def home():
     user_list = rabbitUser.query.order_by(rabbitUser.nickname.asc())
-    print(user_list)
     return render_template('main.html', user_list=user_list)
 
 
