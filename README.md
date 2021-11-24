@@ -1,6 +1,6 @@
 # 한양사이버대학교 졸업과제
 ## 최성호 H201843063
-- [졸업과제URL ec2-3-36-120-145.ap-northeast-2.compute.amazonaws.com:5000](http://ec2-3-36-120-145.ap-northeast-2.compute.amazonaws.com:5000)
+- [졸업과제URL 13.124.72.116:5000](http://13.124.72.116:5000)
 - 현재 github에 모든 소스 올라와있습니다.
 
 ### FrontEnd + BackEnd
